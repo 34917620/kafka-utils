@@ -9,9 +9,6 @@ import com.pingan.ide.gface.kafka_utils.sender.Sender;
 import com.pingan.ide.gface.kafka_utils.vo.Msg;
 
 public class CommonDemo {
-	
-	
-	
 	public static void main(String[] args) {
 		//bingListener();
 		//receive();
