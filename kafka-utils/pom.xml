@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.pingan.ide.gface</groupId>
+  <artifactId>kafka-utils</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging>
+
+  <name>kafka-utils</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+	    <!-- kafka原生，因为spring的kafka不支持连接zookeeper -->
+	    <dependency>
+	       <groupId>org.apache.kafka</groupId>
+	       <artifactId>kafka_2.10</artifactId>
+	       <version>0.10.2.0</version>
+	    </dependency>
+	    <!--  
+	    <dependency>
+	        <groupId>org.apache.storm</groupId>
+	        <artifactId>storm-kafka</artifactId>
+	        <version>1.0.1</version>
+	    </dependency>
+	     -->
+  </dependencies>
+  <build>
+     <pluginManagement>
+        <plugins>
+           <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.3</version>
+              <configuration>
+                   <source>1.7</source>
+                   <target>1.7</target>
+                   <encoding>utf-8</encoding>
+              </configuration>
+           </plugin>
+           <plugin>
+              <artifactId>maven-jar-plugin</artifactId>
+              <version>2.6</version>
+           </plugin>
+        </plugins>
+        
+     </pluginManagement>
+  </build>
+  
+</project>
