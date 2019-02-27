@@ -8,6 +8,7 @@ import com.pingan.ide.gface.kafka_utils.register.ConsumerRegister;
 import com.pingan.ide.gface.kafka_utils.sender.Sender;
 import com.pingan.ide.gface.kafka_utils.vo.Msg;
 
+/**这是分支**/
 public class CommonDemo {
 	public static void main(String[] args) {
 		//bingListener();
