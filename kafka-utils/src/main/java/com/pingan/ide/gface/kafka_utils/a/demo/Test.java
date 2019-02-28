@@ -9,8 +9,7 @@ package com.pingan.ide.gface.kafka_utils.a.demo;
  */
 public class Test {
    public void dosome2(){
-
-      System.out.println("cccc");
+      System.out.println("ddddd");
 
    }
 }
