@@ -8,7 +8,7 @@ package com.pingan.ide.gface.kafka_utils.a.demo;
  *
  */
 public class Test {
-   public void dosome(){
+   public void dosome2(){
 
    }
 }
