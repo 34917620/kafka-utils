@@ -9,4 +9,5 @@ package com.pingan.ide.gface.kafka_utils.a.demo;
  */
 public class T2 {
   public void test(){}
+    public void tt(){}
 }
