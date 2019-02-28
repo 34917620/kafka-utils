@@ -9,6 +9,6 @@ package com.pingan.ide.gface.kafka_utils.a.demo;
  */
 public class T2 {
 
-    public void cc(){}
 
+    public void kk(){}
 }
