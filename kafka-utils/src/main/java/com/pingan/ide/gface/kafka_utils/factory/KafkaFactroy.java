@@ -22,6 +22,7 @@ public class KafkaFactroy {
 	
 	private synchronized static void initProducer(){
 		producer = new KafkaProducer<String, String>(KafkaConfig.getProducerConfig());
+		
 	}
 	
 	/**

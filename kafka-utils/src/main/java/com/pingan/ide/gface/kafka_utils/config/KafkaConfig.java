@@ -72,14 +72,14 @@ public class KafkaConfig {
 		if(consumerConfig==null){
 			loadConsumerConfig();
 		}
-		return consumerConfig;
+		return (Properties) consumerConfig.clone();
 	}
 	
 	public static Properties getProducerConfig(){
 		if(producerConfig==null){
 			loadProducerConfig();
 		}
-		return producerConfig;
+		return (Properties) producerConfig.clone();
 	}
 
 }
